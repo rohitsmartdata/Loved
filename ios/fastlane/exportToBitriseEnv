@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "setting bitrise environment variables"
+envman add --key APP_VERSION_NUMBER --value ${VERSION_NUMBER}
+envman add --key APP_BUILD_NUMBER --value ${BUILD_NUMBER}
+envman add --key BROWSERSTACK_APP_ID --value ${BROWSERSTACK_APP_ID}
+echo "bitrise environment variables set"

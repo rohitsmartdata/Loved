@@ -1,0 +1,3 @@
+git_url "ssh://APKAIGAFLY4FDIQAGK2A@git-codecommit.us-east-1.amazonaws.com/v1/repos/lw-frontend-secrets"
+#git_url "ssh://APKAI7VYTMT5Z7AWZGFQ@git-codecommit.us-east-1.amazonaws.com/v1/repos/lw-frontend-secrets"
+type "development" # The default type, can be: appstore, adhoc, enterprise or development

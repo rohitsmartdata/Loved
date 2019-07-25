@@ -1,0 +1,40 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+target 'LovedWealth' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for LovedWealth
+pod 'Lock', '1.29'
+# pod install will work now. It didn't before becasuse we were missing pod 'Branch-SDK', path: '../node_modules/react-native-branch/ios'. But adding this will brake build because you already have this dependency in project
+#  pod 'react-native-branch', :path => '../node_modules/react-native-branch'
+#
+#  pod 'RNSVG', :path => '../node_modules/react-native-svg'
+#
+#  pod 'react-native-video', :path => '../node_modules/react-native-video'
+#
+#  pod 'SentryReactNative', :path => '../node_modules/react-native-sentry'
+#
+#  pod 'react-native-google-analytics-bridge', :path => '../node_modules/react-native-google-analytics-bridge'
+#
+#  pod 'react-native-maps', :path => '../node_modules/react-native-maps'
+    pod 'FBSDKCoreKit'
+    pod 'FBSDKShareKit'
+    pod 'FBSDKLoginKit'
+
+#   pod 'react-native-contacts', :path => '../node_modules/react-native-contacts'
+   
+#  pod 'react-native-contacts', :path => '#{node_modules_path}/react-native-contacts'
+
+#  pod 'react-native-sms', :path => '../node_modules/react-native-sms'
+
+#  pod 'RNShare', :path => '../node_modules/react-native-share'
+
+#  pod 'Picker', :path => '../node_modules/react-native-picker'
+
+#  pod 'ReactNativeSearchBar', :path => '../node_modules/react-native-search-bar'
+
+#  pod 'react-native-fast-image', :path => '../node_modules/react-native-fast-image'
+
+end
